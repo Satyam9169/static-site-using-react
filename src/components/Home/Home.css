@@ -1,0 +1,122 @@
+.mainHome{
+    background-image: url('../../Images/background.jpg');
+    width: 100%;
+    height: 48rem;
+    margin: auto;
+}
+.container {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+    font-size: 22px;
+    padding-top: 100px;
+    cursor: pointer;
+}
+
+.left-content {
+    color: aliceblue;
+    padding-top: 90px;
+}
+
+.right-content {
+    display: flex;
+}
+
+.left-content h1 {
+    columns: #CACACA;
+}
+
+.left-content .finance {
+    color: #FFE998;
+}
+
+.left-content p {
+    color: #7D7D7D;
+}
+
+.left-content h4 {
+    color: #F0D77B;
+}
+
+.right-content .leftImg {
+    width: 706px;
+    height: 602px;
+    top: 183px;
+    left: 594px;
+    padding-right: 10px;
+}
+
+.right-content .leftImg span{
+    display: flex;
+    margin-left: 675px;
+    color: wheat;
+    padding-bottom: 5px;
+}
+
+.right-content span i {
+    margin-left: -15px;
+    padding: 8px;
+}
+.right-content .rightImg {
+    display: flex;
+    flex-direction: column;
+    width: 29.95px;
+    height: 325.1px;
+    padding-top: 150px;
+    padding-left: 5px;
+}
+
+/* For smaller devices (phones) */
+@media only screen and (max-width: 600px) {
+    .container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .left-content {
+      text-align: center;
+      padding-top: 20px;
+    }
+  
+    .right-content {
+      margin-top: 20px;
+    }
+  
+    .right-content .leftImg {
+      width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+  
+    .right-content .leftImg span {
+      margin-left: auto;
+    }
+  
+    .right-content .rightImg {
+      width: 100%;
+      height: auto;
+      text-align: center;
+    }
+  }
+  
+  /* For medium devices (tablets) */
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .container {
+      flex-direction: row;
+      align-items: flex-start;
+    }
+  
+    .left-content {
+      font-size: 18px;
+    }
+  }
+  
+  /* For larger devices (desktops) */
+  @media only screen and (min-width: 1025px) {
+    .container {
+      font-size: 20px;
+    }
+  }
+  

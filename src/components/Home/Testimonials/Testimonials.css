@@ -1,0 +1,97 @@
+.maintestimonial {
+    background-image: url('../../../Images/second_back.jpg');
+    width: 100%;
+    height: 40rem;
+}
+
+
+.secondmonial {
+    width: 75%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-top: 100px;
+    cursor: pointer;
+}
+
+.secondmonial h1{
+    color: #ffe998de;
+}
+
+.secondmonial .alltestmonial {
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    margin: 50px;
+}
+
+.secondmonial .alltestmonial .leftside {
+    display: flex;
+    margin: -10px;
+    padding: 20px;
+}
+
+.secondmonial .alltestmonial .rightside {
+    display: flex;
+    margin: -10px;
+    padding: 20px;
+}
+
+.secondmonial .alltestmonial .leftside img{
+    /* margin: 10px; */
+}
+
+.secondmonial .alltestmonial .leftside .leftmonial{
+    padding: 10px;
+}
+
+.secondmonial .alltestmonial .leftside .leftmonial p{
+    color: #C4C4C4;
+}
+
+.secondmonial .alltestmonial .rightside .rightmonial p{
+    color: #C4C4C4;
+}
+
+.secondmonial .alltestmonial .rightside img{
+    margin-left: 10px;
+}
+
+.secondmonial .alltestmonial .rightside .rightmonial{
+    padding: 10px;
+}
+
+/* Responsive CSS for max-width: 768px */
+@media only screen and (max-width: 768px) {
+    .secondmonial {
+        width: 90%; 
+        padding-top: 50px; 
+        }
+
+    .secondmonial .alltestmonial {
+        flex-direction: column; 
+        margin: 20px; 
+    }
+
+    .secondmonial .alltestmonial .leftside,
+    .secondmonial .alltestmonial .rightside {
+        margin: 0; 
+        padding: 10px; 
+    }
+
+    .secondmonial .alltestmonial .line img{
+           display: none;
+    }
+
+    .secondmonial .alltestmonial .leftside img,
+    .secondmonial .alltestmonial .rightside img {
+        margin-bottom: 0; 
+    }
+
+    .secondmonial .dot{
+        display: none;
+    }
+}
