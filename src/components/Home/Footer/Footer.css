@@ -50,13 +50,16 @@
 
 @media only screen and (max-width: 768px) {
     .footercontainer {
-        height: 90rem; 
+        width: 100%;
+        height: 70rem;
+        margin: auto; 
     }
 
     .mainfooter {
         flex-direction: column; 
         align-items: center; 
-        padding-top: 850px; 
+        text-align: center;
+        padding-top: 450px; 
     }
 
     .mainfooter .informationfooter p,

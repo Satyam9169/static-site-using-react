@@ -8,7 +8,7 @@
 .mainnav {
   background-image: url('../Images/background.jpg');
   width: 100%;
-  height: 5.313rem;
+  height: auto;
 }
 
 /* style to navbar */
@@ -80,6 +80,10 @@
   }
   
   @media screen and (max-width: 780px) {
+    .mainnav{
+      width: 100%;
+      margin: auto;
+    }
   
     .logo {
         display: flex;

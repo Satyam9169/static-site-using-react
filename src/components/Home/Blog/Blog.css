@@ -82,13 +82,13 @@
     text-align: justify;
 }
 
-.secondcontent .middle .midcontent .midlupcontent{
+.secondcontent .middle .midcontent .midupcontent{
     padding-top: 50px;
     display: flex;
     justify-content: space-between;
 }
 
-.secondcontent .middle .midcontent .midlupcontent h6{
+.secondcontent .middle .midcontent .midupcontent h6{
     color: #F0D77B;
 }
 
@@ -125,7 +125,6 @@
     text-decoration: underline;
 }
 
-
 .blogcontainer .maincontent .btn{
     width: 177px;
     height: 41px;
@@ -141,43 +140,71 @@
 /* For screens up to 768px */
 @media only screen and (max-width: 768px) {
     .mainblog {
-      height: auto; 
+        height: auto; 
     }
   
     .blogcontainer {
-      width: 90%;
+        width: 90%;
     }
   
     .firstcontent {
-      padding-top: 100px;
-      font-size: 16px;
+        padding-top: 100px;
+        font-size: 16px;
     }
   
     .secondcontent {
-      flex-direction: column;
+        flex-direction: column;
+    }
+  
+    .secondcontent .left img {
+        width: 80%;
+        margin: auto;
+        height: auto;
     }
   
     .secondcontent .left .heading {
-      position: static;
-      width: 80%; 
-      margin: auto; 
-      padding-top: 20px;
-      padding-left: 15px; 
-      padding-right: 15px; 
-      margin-bottom: 20px; 
+        position: absolute;
+        width: 70%; 
+        margin: auto;
+        height: auto; 
+        text-align: justify;
+        padding: 0px 0px 10px 40px;
+        margin: 0px 0px 0px 30px;
+        line-height: 20px;
+        /* padding-top: 10px;
+        padding-left: 15px; 
+        padding-right: 15px; 
+        margin-bottom: 20px;  */
+    }
+  
+    .secondcontent .middle,
+    .secondcontent .right {
+        width: 80%;
+        margin: auto;
+        align-items: center;
     }
   
     .secondcontent .middle .midcontent,
     .secondcontent .right .rightcontent {
-      width: 80%;
-      margin: auto;
-      margin-top: 20px;
+        padding: 15px;
+    }
+
+    .secondcontent .middle .midcontent .midupcontent {
+        padding-top: 10px;
+    }
+
+    .secondcontent .middle img,
+    .secondcontent .right img {
+        width: 100%;
+        height: auto;
+        margin: auto;
+        padding-top: 10px;
     }
 
     .blogcontainer .maincontent .btn {
         width: 150px; 
         margin: 20px auto; 
     }
+}
 
-  }
   

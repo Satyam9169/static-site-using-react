@@ -54,7 +54,7 @@ const Blog = () => {
                 <div className='midcontent'>
 
                   {/* up heading */}
-                  <div className='midlupcontent'>
+                  <div className='midupcontent'>
                     <h6>DEVELOPMENT</h6>
                     <p>11March 2023</p>
                   </div>
